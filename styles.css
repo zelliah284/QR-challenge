@@ -50,7 +50,7 @@ background-color: hsl(212, 45%, 89%);
         padding: 5px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         align-items: center;
-        height: 800px;
+        height: 500px;
     }
     .img {
         display: flex;
