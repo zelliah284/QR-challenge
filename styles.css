@@ -8,7 +8,6 @@ background-color: hsl(212, 45%, 89%);
 .container {
     display: block;
     background-color:  hsl(0, 0%, 100%);
-    font-family: Georgia, 'Times New Roman', Times, serif;
     height: 500px;
     width: 300px;
     border-radius: 0.8em;
@@ -40,15 +39,22 @@ background-color: hsl(212, 45%, 89%);
 .info {
     font-size: 15px;
     color: hsl(220, 15%, 55%);
-    align-self: center;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
 }
-@media (min-width: 1112px) {
+.h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    
+}
+@media (max-width: 600px) and (max-width:1024px){
     .container {
         display: block;
         background-color: hsl(0, 0%, 100%);
         margin: 0 auto;
         padding: 5px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Outfit', sans-serif;
         align-items: center;
         height: 500px;
     }
